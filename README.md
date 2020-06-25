@@ -53,5 +53,5 @@
 
 ### Output
 
-![enter image description here](https://raw.githubusercontent.com/faisalfs10x/HTTPwaf-Login-Bruteforce/master/1.png)
-![enter image description here](https://raw.githubusercontent.com/faisalfs10x/HTTPwaf-Login-Bruteforce/master/2.png)
+![enter image description here](https://raw.githubusercontent.com/faisalfs10x/HTTPwaf-Login-Bruteforce/master/intro.png)
+![enter image description here](https://raw.githubusercontent.com/faisalfs10x/HTTPwaf-Login-Bruteforce/master/bruteforce.png)
