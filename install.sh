@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##
-chmod +x v4login.py
+chmod +x httpwaf.py
 pip install -r requirements.txt
 
 
