@@ -1,7 +1,14 @@
+### Prerequisite
+
+- request file from burp suite or any tool request intercept
+- CREDENTIALFILE in pair of username:password format
+- username field
+- password field
+- invalid message
 
 ### Features
 
- - Read request file from burp suite intercept. 
+ - Read request file from burp suite or any tool request intercept
  - WAF fingerprint:
 	 - Mod_Security
 	 - WebKnight
@@ -36,10 +43,15 @@
     
     optional arguments:
     
-          -h, --help            				show this help message and exit
+          -h, --help            					show this help message and exit
           -r REQUESTFILE, --requestfile REQUESTFILE  		path to requestfile.txt format from burpsuite request intercept is compulsory!!
           -c CREDENTIALFILE, --credentialfile CREDENTIALFILE  	path to credentialfile.txt in pair of username:password format
           -u USERFIELD, --userfield USERFIELD  			username field
           -p PASSFIELD, --passfield PASSFIELD  			password field
           -i INVMSG, --invmsg INVMSG  				invalid message in double quoted string
-          -V, --version         				show program's version number and exit
+          -V, --version         					show program's version number and exit
+
+### Output
+
+![enter image description here](https://raw.githubusercontent.com/faisalfs10x/HTTPwaf-Login-Bruteforce/master/1.png)
+![enter image description here](https://raw.githubusercontent.com/faisalfs10x/HTTPwaf-Login-Bruteforce/master/2.png)
