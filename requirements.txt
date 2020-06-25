@@ -1,0 +1,5 @@
+parse
+requests
+texttable
+argparse
+colorama==0.3.3
