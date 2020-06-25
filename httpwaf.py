@@ -1,13 +1,9 @@
 ##!/usr/bin/env python3
 """tested on http://vulnweb.lab.rz.my/user/login.php and https://grabme.herokuapp.com/target/
-	Enter url : http://vulnweb.lab.rz.my/user/login.php
-	username field : email
-	password field : password
-	invalid message : User Email doesn't exists
 	
-	python3 waf.py -r heroku_req.txt -c credpwd.txt -u username -p password -i "incorrect username or password"
-	usage: python3 waf.py -r labrz_req.txt -c credpwd.txt -u email -p password -i "User Email doesn't exists."
-	python3 waf.py -r smp_req.txt -c credpwd.txt -u txtLogin -p txtPWD -i "Unauthorised access/wrong User ID/wrong password"
+	python3 httpwaf.py -r heroku_req.txt -c credpwd.txt -u username -p password -i "incorrect username or password"
+	usage: python3 httpwaf.py -r labrz_req.txt -c credpwd.txt -u email -p password -i "User Email doesn't exists."
+	python3 httpwaf.py -r smp_req.txt -c credpwd.txt -u txtLogin -p txtPWD -i "Unauthorised access/wrong User ID/wrong password"
 """
 from urllib import parse
 import argparse, os
