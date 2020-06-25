@@ -28,8 +28,18 @@
  1. run 'bash install.sh' to auto-install module in requirements.txt
  2. chmod +x httpwaf.py
 
-
 ### Usage
 
-    python3 httpwaf.py -r labrz_req.txt -c credpwd.txt -u email -p password -i "User Email doesn't exists."
-
+    usage: httpwaf.py [-h] -r REQUESTFILE -c CREDENTIALFILE -u USERFIELD -p PASSFIELD -i INVMSG [-V]
+    
+    Parallel Dictionary Login
+    
+    optional arguments:
+    
+          -h, --help            				show this help message and exit
+          -r REQUESTFILE, --requestfile REQUESTFILE  		path to requestfile.txt format from burpsuite request intercept is compulsory!!
+          -c CREDENTIALFILE, --credentialfile CREDENTIALFILE  	path to credentialfile.txt in pair of username:password format
+          -u USERFIELD, --userfield USERFIELD  			username field
+          -p PASSFIELD, --passfield PASSFIELD  			password field
+          -i INVMSG, --invmsg INVMSG  				invalid message in double quoted string
+          -V, --version         				show program's version number and exit
