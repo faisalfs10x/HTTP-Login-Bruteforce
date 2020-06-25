@@ -31,9 +31,9 @@
 
 
 ### Installation
- 1. Python 3 
- 1. run 'bash install.sh' to auto-install module in requirements.txt
- 2. chmod +x httpwaf.py
+ 1. Python 3
+ 2. git clone https://github.com/faisalfs10x/HttpWaf-Login-Bruteforce
+ 3. run 'bash install.sh' to auto-install module in requirements.txt
 
 ### Usage
 
