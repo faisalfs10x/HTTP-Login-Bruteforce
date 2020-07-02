@@ -1,4 +1,5 @@
 ##!/usr/bin/env python3
+# @faisalfs10x
 """tested on http://vulnweb.lab.rz.my/user/login.php and https://grabme.herokuapp.com/target/
 	
 	python3 httpwaf.py -r heroku_req.txt -c credpwd.txt -u username -p password -i "incorrect username or password"
