@@ -1,3 +1,7 @@
+### HttpWaf-Login-Bruteforce
+
+- Http Login Bruteforce python script with WAF fingerprint and Web Protection fingerprint.
+
 ### Prerequisite
 
 - request file from burp suite or any tool request intercept
@@ -5,6 +9,11 @@
 - username field
 - password field
 - invalid message
+
+### WAF Fingerprint Methodology
+
+- based on request or response headers.
+- response page content.
 
 ### Features
 
